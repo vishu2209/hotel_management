@@ -19,9 +19,9 @@ public class AwsS3Service {
 
     private final String bucketName = "vishal-hotel-image";
 
-    private String awsS3AccessKey="AKIAWAA66LNXGOZABPPT";
+    private String awsS3AccessKey="";
 
-    private String awsS3SecretKey="tZk8MZI1/EMC32OapX0elBglTRmfiY4v/MERJD1Z";
+    private String awsS3SecretKey="";
 
     public String saveImageToS3(MultipartFile photo) {
         String s3LocationImage = null;
